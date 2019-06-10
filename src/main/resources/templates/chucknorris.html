@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title><Jokes></Jokes></title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet">
+</head>
+<body>
+    <h1>The Joke Is:</h1>
+    <h2 th:text="${joke}">Joke goes here</h2>
+</body>
+</html>
